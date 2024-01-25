@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 const MoneyTransferPage = () => {
   const [amount, setAmount] = useState('');
   const [bankName, setBankName] = useState('');
+  const [AccNum, setAccNum] = useState('');
   const [isTransactionPending, setTransactionPending] = useState(false);
 
   const handleAmountChange = (event) => {
@@ -28,6 +29,10 @@ const MoneyTransferPage = () => {
         <label>
           Amount:
           <input type="number" value={amount} onChange={handleAmountChange} />
+        </label>
+        <label>
+          Account Number
+          <input type="number" value={AccNum} onChange={handleAmountChange} />
         </label>
         <br />
         <label>
