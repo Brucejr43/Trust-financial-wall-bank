@@ -1,4 +1,4 @@
-import './Transfer.scss'
+import './Transfer.scss';
 import React, { useState } from 'react';
 
 const MoneyTransferPage = () => {
@@ -14,7 +14,8 @@ const MoneyTransferPage = () => {
   const handleBankNameChange = (event) => {
     setBankName(event.target.value);
   };
-  const handleBankNameChange = (event) => {
+
+  const handleAccNumChange = (event) => {
     setAccNum(event.target.value);
   };
 
@@ -35,7 +36,7 @@ const MoneyTransferPage = () => {
         </label>
         <label>
           Account Number
-          <input type="number" value={AccNum} onChange={handleAmountChange} />
+          <input type="number" value={AccNum} onChange={handleAccNumChange} />
         </label>
         <br />
         <label>
