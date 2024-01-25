@@ -14,6 +14,9 @@ const MoneyTransferPage = () => {
   const handleBankNameChange = (event) => {
     setBankName(event.target.value);
   };
+  const handleBankNameChange = (event) => {
+    setAccNum(event.target.value);
+  };
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
