@@ -22,7 +22,7 @@ function Login() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    if (username === 'Jonathan' && password === 'Jonathan321') {
+    if (username === 'Leslie' && password === 'Leslie123$') {
       setIsLoginSuccessful(true);
       // Redirect to the dashboard after successful login
       navigate('/dashboard');
