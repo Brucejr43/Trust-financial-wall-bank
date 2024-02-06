@@ -82,7 +82,7 @@ const Dashboard = () => {
 
  <div className="d_money">
   <div className="money">
-    <div className='moneyfigure'> $6,340,000.00</div>
+    <div className='moneyfigure'> $6,175,000.00</div>
     <div className='menu'><PendingIcon className='pend' /></div>
   </div>
  </div>
